@@ -65,22 +65,24 @@
 <section id="media">
   <h2>Media</h2>
 
-  <h3>Video Recording</h3>
+  <h3>Video</h3>
   <video width="320" height="240" controls>
-    <source src="video.mp4" type="video/mp4">
+    <source src="Video.mp4" type="video/mp4">
   </video>
-  
+
   <h3>Audio</h3>
   <audio controls>
-    <source src="audio.mp3" type="audio/mpeg">
+    <source src="Audio.mp3" type="audio/mpeg">
   </audio>
 </section>
 
 <section>
-  <h2>Discussion Details</h2>
+  <h2>Discussion</h2>
   <details>
-    <summary>Click to expand meeting notes</summary>
-    <p>We discussed features in detail.</p>
+    <summary>Click to expand</summary>
+    <p>We decided to make a ton of little green tomatoes for a mobile option,
+        and a huge red tomato to keep at home
+    </p>
   </details>
 </section>
 
@@ -89,9 +91,9 @@
 
   <form>
     <fieldset>
-      <legend>General Info</legend>
+      <legend>General</legend>
 
-      <label>Name:</label>
+      <label>Full Name:</label>
       <input type="text" name="name"><br>
 
       <label>Date:</label>
@@ -100,27 +102,30 @@
       <label>Role:</label>
       <input list="roles" name="role">
       <datalist id="roles">
-        <option value="Developer">
-        <option value="Designer">
-        <option value="Manager">
+        <option value="Team Leader">
+        <option value="Programmer">
+        <option value="Researcher">
       </datalist><br>
 
-      <label>Favorite Language:</label>
+      <label>Language:</label>
       <select>
         <option>Java</option>
-        <option>Python</option>
-        <option>JavaScript</option>
+        <option>C++</option>
+        <option>ARM</option>
       </select><br>
 
-      <p>Did you attend?</p>
+      <p>Did you attend in person?</p>
       <input type="radio" name="attended" value="yes"> Yes
       <input type="radio" name="attended" value="no"> No<br>
 
-      <p>Topics you liked:</p>
-      <input type="checkbox"> Planning
-      <input type="checkbox"> Coding<br>
+      <p>Favorite Part:</p>
+      <input type="checkbox"> Diagram
+      <input type="checkbox"> Video
+      <input type="checkbox"> Audio
+      <input type="checkbox"> Brainstorming
+      <br>
 
-      <label>Comments:</label><br>
+      <label>Any extra feedback?</label><br>
       <textarea></textarea><br>
 
       <button type="button">Submit</button>
@@ -132,8 +137,8 @@
 </main>
 
 <footer>
-  <p><i>End of meeting minutes</i></p>
-  <p><b>Created by the team</b></p>
+  <p><i>End</i></p>
+  <p><b>Bekzhan Yessengeldy</b></p>
 </footer>
 
 </body>
